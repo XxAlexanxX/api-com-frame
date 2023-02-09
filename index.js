@@ -30,7 +30,7 @@ const DB_PASSWORD = encodeURIComponent('syO8Oz7JwGV4LX8r')
 
 mongoose
 .connect(
-    `mongodb+srv://${DB_USER}:${DB_PASSWORD}@apicluster.lnnlhv7.mongodb.net/?retryWrites=true&w=majority`,
+    ``,
     )
 .then(() => {
     console.log("Conectamos ao MongoDB!")
